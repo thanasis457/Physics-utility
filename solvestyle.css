@@ -1,0 +1,135 @@
+#Section1 .content{
+	background-image: url(full-logo.png);
+	height:100%;
+	position: relative;
+	margin:auto;
+	background-size: cover;
+	top:-80px;
+	width:300px;
+	height:200px;
+}
+.parallax{
+	background-image: url(cool-background.png);
+	height:750px;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+body {
+	margin:0;
+	background-color: rgba(89, 171, 200, 0.1);
+}
+.Us{
+	font-size: 25px;
+	margin-top: -40px;
+	background-color: rgb(87, 71, 71);
+}
+.Us h1{
+	text-align: center;
+	color:rgb(255, 255, 255);
+}
+.Us h2{
+	margin-top: -20px;
+	text-align: center;
+	color:rgb(255, 255, 255);
+}
+.Us h3{
+	text-align: center;
+	color:rgb(75, 124, 219);
+}
+.Us p{
+	text-align: center;
+	color:rgb(196, 205, 227);
+	font-size: 30px;
+}
+.under{
+	background-image: url(fade.png);
+	height:540px;
+	overflow:hidden;
+}
+.under .image{
+	margin-left:30%;
+	width:auto;
+	height:100px;
+	border-radius:40px;
+}
+.under p{
+	color:rgb(0, 0, 0);
+}
+.General-info{
+	width:70%;
+	height:auto;
+	margin:auto;
+	text-align: center;
+	font-size: 40px;
+	position:relative;
+	background:url(cool-background.png);
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	filter: invert(100%);
+}
+#Section1{
+	overflow: scroll;
+	height: 100%;
+	width: 100%;
+	margin:0;
+}
+#Section1 .content{
+	text-align: center;
+}
+.inputknown .known{
+	width: 30%;
+	height: 150px;
+}
+.ocean {
+	margin-top:0px;
+  height: 0px;
+  width:100%;
+  position:relative;
+  bottom:0;
+  left:0;
+}
+.wave {
+  background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/85486/wave.svg) repeat-x;
+  position: absolute;
+	margin-top: 50px;
+  width: 6400px;
+  height: 198px;
+  animation: wave 7s cubic-bezier( 0.36, 0.45, 0.63, 0.53) infinite;
+  transform: translate3d(0, 0, 0);
+}
+
+.wave:nth-of-type(2) {
+	margin-top:50px;
+  animation: wave 7s cubic-bezier( 0.36, 0.45, 0.63, 0.53) -.125s infinite, swell 7s ease -1.25s infinite;
+  opacity: 1;
+}
+
+@keyframes wave {
+  0% {
+    margin-left: 0;
+  }
+  100% {
+    margin-left: -1600px;
+  }
+}
+
+@keyframes swell {
+  0%, 100% {
+    transform: translate3d(0,-25px,0);
+  }
+  50% {
+    transform: translate3d(0,5px,0);
+  }
+}
+.under #contact{
+	margin-top:120px;
+	text-align: center;
+	position:relative;
+	color:rgb(0, 0, 0);
+	opacity:1;
+	z-index:1;
+}
