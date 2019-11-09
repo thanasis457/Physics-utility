@@ -8,4 +8,13 @@ First, the input module of the program receives the statement of a physics probl
 By focusing on the ideas in physics rather than the math, this project aims to help the efforts made by education communities to support every student and teacher in the learning process. Especially those who face major problems like lack of teachers that can provide personalized guidance and support or lack of resources like tools, books etc. This program can also help students with special needs as a valuable learning companion.
 ![picture](schema.png)
 
+
+## Code samples
+
+### The solve function
+![picture](https://github.com/thanasis457/Physics-utility/blob/master/Screenshot%20search.png)
+
+### Recogniser + Grapher
+![picture](https://github.com/thanasis457/Physics-utility/blob/master/Screenshot%20grapher.png)
+
 Authors: Dimitrios Kriezis, Athanasios Taprantzis
