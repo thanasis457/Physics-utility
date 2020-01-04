@@ -1,4 +1,4 @@
-# Physics Solver: From Cognition to Education
+# Physics Computational Solution Designer: From Cognition to Education
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/thanasis457/Physics-utility/blob/master/LICENSE)
 
 Solving problems is one of the core abilities of the human brain. Based on a set of data the brain computes a solution and stores the path followed in the process for future use. The goals of this research project are to: develop a program that follows a similar process to solve Physics problems and to present the solution in such a way so that students can focus more on the ideas, rather than the underlying mathematical calculations. 
